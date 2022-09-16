@@ -1,0 +1,47 @@
+[
+    {
+        "photo": "images/agent-2.webp",
+        "job": "Team Leader",
+        "name": "Arthur Morgan",
+        "gender": "male",
+        "twitUser": "PhilopaterHany4",
+        "githubUser": "PhilopaterHany",
+        "linkedinUser": "philopater-hany"
+    },
+    {
+        "photo": "images/agent-4.webp",
+        "job": "Frontend Developer",
+        "name": "Sarah Jones",
+        "gender": "female",
+        "twitUser": "PhilopaterHany4",
+        "githubUser": "PhilopaterHany",
+        "linkedinUser": "philopater-hany"
+    },
+    {
+        "photo": "images/agent-3.webp",
+        "job": "Backend Developer",
+        "name": "Walter White",
+        "gender": "male",
+        "twitUser": "PhilopaterHany4",
+        "githubUser": "PhilopaterHany",
+        "linkedinUser": "philopater-hany"
+    },
+    {
+        "photo": "images/agent-5.webp",
+        "job": "UI/UX Designer",
+        "name": "Charlotte Byrde",
+        "gender": "female",
+        "twitUser": "PhilopaterHany4",
+        "githubUser": "PhilopaterHany",
+        "linkedinUser": "philopater-hany"
+    },
+    {
+        "photo": "images/agent-1.webp",
+        "job": "Sales Manager",
+        "name": "Jimmy McGill",
+        "gender": "male",
+        "twitUser": "PhilopaterHany4",
+        "githubUser": "PhilopaterHany",
+        "linkedinUser": "philopater-hany"
+    }
+]

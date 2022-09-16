@@ -1,0 +1,53 @@
+@use "./helpers/variables" as *;
+@use "./helpers/mixins" as *;
+
+.services {
+    .container {
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+            @media (max-width: 991px) {
+                max-width: 100%;
+                gap: 30px;
+            }
+            @media (max-width: 767px) {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                place-items: center;
+            }
+            > img {
+                display: inline-block;
+                margin: auto;
+            }
+            .text {
+                @include flexbox(space-between, center, column);
+                @media (max-width: 991px) {
+                    gap: 60px;
+                    text-align: center;
+                }
+                .box {
+                    box-shadow: none;
+                    h2 {
+                        font-size: 24px;
+                        margin-bottom: 15px;
+                        svg {
+                            margin-right: 10px;
+                            path {
+                                fill: $main-color;
+                            }
+                        }
+                    }
+                    p {
+                        line-height: 1.75;
+                        @media (max-width: 1199px) {
+                            line-height: 1.5;
+                        }
+                        @media (max-width: 991px) {
+                            line-height: 1.75;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

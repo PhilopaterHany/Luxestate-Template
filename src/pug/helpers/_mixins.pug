@@ -1,0 +1,23 @@
+mixin menu-links(hrefId, text)
+    li
+        a(href="#"+hrefId) #{text}
+
+mixin heading-title(title, text)
+    h1.wow.animate__animated.animate__backInLeft #{title}
+    p.wow.animate__animated.animate__backInLeft #{text}
+
+mixin about-box(num, text)
+    .box.wow.animate__animated.animate__swing
+        span(data-count=num) 0
+        p #{text}
+
+mixin services-box(icon, title, text)
+    .box(id=title.toLowerCase())
+        h2 
+            i(class=icon)
+            | #{title}
+        p #{text}
+
+mixin footer-links(text, id)
+    li
+        a(href=id) #{text} 

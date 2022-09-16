@@ -1,0 +1,65 @@
+@use "./helpers/variables" as *;
+@use "./helpers/mixins" as *;
+
+.about {
+    @media (max-width: 767px) {
+        margin-top: -40px;
+        padding-top: 0;
+    }
+    .container {
+        @include flexbox(space-between, center, row, "", "20px");
+        & > * {
+            width: 47.5%;
+        }
+        @media (max-width: 991px) {
+            @include flexbox(center, space-between, column, "", "20px");
+            & > * {
+                width: 100%;
+            }
+        }
+        .content-text {
+            flex-basis: 50%;
+            h1 {
+                width: fit-content;
+                padding-bottom: 5px;
+                border-bottom: 3px dashed $main-color;
+                font-weight: 500;
+                @media (max-width: 767px) {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            p {
+                max-width: 95%;
+                margin-block: 10px;
+                line-height: 1.8;
+                font-size: 14px;
+            }
+        }
+        .boxes-holder {
+            flex-basis: 50%;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+            gap: 20px;
+            .box {
+                min-height: 175px;
+                background-color: $main-background;
+                @include bRad(10px);
+                @include flexbox(center, center, column, "", "10px");
+                span {
+                    color: $main-color;
+                    font: {
+                        size: 34px;
+                        weight: bold;
+                    }
+                }
+                p {
+                    font: {
+                        size: 22px;
+                        weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+@use "./helpers/variables" as *;
+@use "./helpers/mixins" as *;
+
+.recent-apartments {
+    .container {
+        @include flexbox(center, center, column, "", "30px");
+        @media (max-width: 991px) {
+            gap: 120px;
+        }
+        .recent-apartment {
+            @include flexbox(center, center);
+            &:nth-child(2n) {
+                flex-direction: row-reverse;
+                .text {
+                    padding: {
+                        top: 10px;
+                        right: 40px;
+                    }
+                    text-align: right;
+                }
+            }
+            @media (max-width: 991px) {
+                flex-direction: column !important;
+            }
+            *:not(svg) {
+                flex-basis: 50%;
+                width: 100%;
+            }
+            .image {
+                span {
+                    width: 80%;
+                    margin-left: 50%;
+                    padding: 20px;
+                    position: relative;
+                    bottom: 35px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 18px;
+                    background-color: $main-color;
+                    @include transX(-50%);
+                    svg {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .text {
+                padding: {
+                    top: 10px;
+                    left: 40px;
+                }
+                h4 {
+                    font: {
+                        size: 24px;
+                        weight: 700;
+                    }
+                }
+                p {
+                    margin-top: 25px;
+                    line-height: 1.75rem;
+                }
+                a {
+                    margin-top: 25px;
+                    padding: 20px 40px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: $alt-color;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+                @media (max-width: 991px) {
+                    padding: 0 !important;
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}

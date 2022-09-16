@@ -1,0 +1,15 @@
+header#header
+  .container
+    img(src="images/logo.webp", alt="Luxestate Logo")
+    nav 
+      .burger-icon#burgerIcon
+        i.fa-solid.fa-bars
+      ul#menu
+        +menu-links("about", "About")
+        +menu-links("apartments", "Apartments")
+        +menu-links("works", "How It Works")
+        +menu-links("agents", "Agents")
+        +menu-links("contact", "Contact Us")
+        ul
+          +menu-links("", "Join Us")
+          +menu-links("", "Getting Started")
