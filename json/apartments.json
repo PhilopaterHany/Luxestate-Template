@@ -1,0 +1,90 @@
+[
+    {
+        "img": "images/apartment-1.webp",
+        "address": "Random Street, Apt B421, Philadelphia",
+        "price": "5521",
+        "bed": "3",
+        "kitchen": "1",
+        "shower": "2"
+    },
+    {
+        "img": "images/apartment-2.webp",
+        "address": "Random Street, Apt B842, Houston",
+        "price": "4956",
+        "bed": "2",
+        "kitchen": "1",
+        "shower": "2"
+    },
+    {
+        "img": "images/apartment-3.webp",
+        "address": "Random Street, Apt B211, Omaha",
+        "price": "3762",
+        "bed": "2",
+        "kitchen": "1",
+        "shower": "1"
+    },
+    {
+        "img": "images/apartment-4.webp",
+        "address": "308 Negra Arroyo Lane, Albuquerque",
+        "price": "4861",
+        "bed": "3",
+        "kitchen": "2",
+        "shower": "1"
+    },
+    {
+        "img": "images/apartment-5.webp",
+        "address": "Random Street, Apt B105, Los Angeles",
+        "price": "8796",
+        "bed": "6",
+        "kitchen": "2",
+        "shower": "3"
+    },
+    {
+        "img": "images/apartment-6.webp",
+        "address": "Random Street, Apt B368, Las Vegas",
+        "price": "4172",
+        "bed": "4",
+        "kitchen": "1",
+        "shower": "1"
+    },
+    {
+        "img": "images/apartment-7.webp",
+        "address": "9800 Montgomery, Blvd NE, Albuquerque",
+        "price": "5184",
+        "bed": "5",
+        "kitchen": "2",
+        "shower": "3"
+    },
+    {
+        "img": "images/apartment-8.webp",
+        "address": "Random Street, Apt B453, New York",
+        "price": "8379",
+        "bed": "7",
+        "kitchen": "2",
+        "shower": "3"
+    },
+    {
+        "img": "images/apartment-9.webp",
+        "address": "Random Street, Apt B453, San Francisco",
+        "price": "4782",
+        "bed": "5",
+        "kitchen": "2",
+        "shower": "2"
+    },
+    {
+        "img": "images/apartment-10.webp",
+        "address": "Random Street, Apt B952, Washington D.C",
+        "price": "9241",
+        "bed": "5",
+        "kitchen": "2",
+        "shower": "3"
+    },
+    {
+        "img": "images/apartment-11.webp",
+        "address": "Random Street, Apt B366, Miami",
+        "price": "8635",
+        "bed": "3",
+        "kitchen": "1",
+        "shower": "2"
+    }
+]
