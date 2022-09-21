@@ -1,7 +1,8 @@
 # Luxestate Template
 
 This is the source code to [Luxestate Template From Graphberry](https://www.graphberry.com/item/luxestate--real-estate-landing-page). Making projects and templates help you improve your coding skills by building realistic projects.
-P.S: PSD file exists at `design` directory.
+
+**Note:** PSD file is available at `design` directory, or you can use a [direct download link](https://github.com/PhilopaterHany/Luxestate-Template/raw/main/design/Luxestate-Template.psd).
 
 ## Table of contents
 
@@ -42,14 +43,14 @@ To run the code and see the final HTML page, you must follow these steps:
 
 ### Built with
 
--   Pug.js
--   SCSS
 -   Semantic HTML5 Markup
--   CSS Custom Properties
--   CSS Flex & Grid
+-   Custom CSS3 Properties
+-   CSS3 Flexbox & Grid
 -   Vanilla Javascript + ES6
 -   JSON
 -   AJAX
+-   SCSS
+-   Pug.js
 -   Gulp.js @4.0.2
 -   Font Awesome Library @6.2.0
 -   Normalize.css Library @8.0.1
@@ -119,9 +120,7 @@ function formatCurrency(value) {
 }
 
 // Agents Names
-agentName.innerHTML = `${agent.gender === "male" ? "Mr" : "Mrs"}. ${
-    agent.name
-}`;
+agentName.innerHTML = `${agent.gender === "male" ? "Mr" : "Mrs"}. ${agent.name}`;
 ```
 
 Apartment JSON Model:
